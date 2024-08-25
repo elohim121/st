@@ -1,5 +1,0 @@
-clear
-ls
-vim .zshrc
-sudo pacman -S zsh-syntax-highlighting
-vim .zshrc

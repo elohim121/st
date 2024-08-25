@@ -1,6 +1,0 @@
-[INFO  Wed 08 May 2024 02:02:16 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
-[INFO  Wed 08 May 2024 02:02:16 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
-[ERROR Wed 08 May 2024 02:02:21 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=stylua) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
-[INFO  Wed 08 May 2024 02:02:22 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
-[INFO  Wed 08 May 2024 02:08:24 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
-[ERROR Wed 08 May 2024 02:08:25 AM UTC] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="Installation was aborted."
