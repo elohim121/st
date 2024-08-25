@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/verusvir/Desktop/git_clone/luck/voidrice/.git/objects/info'
+let g:netrw_dirhist_4='/home/verusvir/Desktop/git_clone/luck/voidrice/.git/objects'
+let g:netrw_dirhist_3='/home/verusvir/.config/vim/vim_conf/pack/theme/start/dracula/autoload'
+let g:netrw_dirhist_2='/home/verusvir/.config/vim/vim'
+let g:netrw_dirhist_1='/home/verusvir/.config/vim/.vim/pack/theme/start/dracula'

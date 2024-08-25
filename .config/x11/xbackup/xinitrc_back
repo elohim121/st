@@ -1,0 +1,22 @@
+#!/bin/sh
+
+intern=LVDS1
+extern=VGA1
+
+if xrandr | grep "$extern disconnected"; then
+	xrandr --output "$extern" off --output "$intern" --auto
+else
+	xrandr --output "$intern" --off --output "$extern" --primary --auto
+fi
+
+if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
+	. "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile"
+else
+	. "$HOME/.xprofile"
+fi
+
+# Activate dbus variables
+dbus-update-activation-environment --all
+while :; do
+	ssh-agent dwm
+done

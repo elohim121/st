@@ -1,0 +1,7 @@
+[user]
+	name = elohim121
+	email = facebook12@gmail.com
+[core]
+	editor = vim --nofork
+[init]
+	defaultBranch = main

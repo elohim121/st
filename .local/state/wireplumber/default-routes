@@ -1,0 +1,7 @@
+[default-routes]
+alsa_card.pci-0000_00_1b.0.5:input:analog-input-internal-mic={"channelVolumes":[2.330208, 2.330208], "latencyOffsetNsec":0, "channelMap":["FL", "FR"], "mute":true}
+alsa_card.pci-0000_00_1b.0.5:output:analog-output-headphones={"channelVolumes":[0.063997, 0.063997], "latencyOffsetNsec":0, "channelMap":["FL", "FR"], "mute":false}
+alsa_card.pci-0000_00_1b.0.5:profile:output:analog-stereo=["analog-output-headphones"]
+alsa_card.pci-0000_00_1b.0.5:profile:output:analog-stereo+input:analog-stereo=["analog-output-headphones", "analog-input-internal-mic"]
+bluez_card.23_11_28_B3_9C_3B:output:headset-output={"channelVolumes":[1.000000, 1.000000], "latencyOffsetNsec":0, "channelMap":["FL", "FR"], "mute":false}
+bluez_card.23_11_28_B3_9C_3B:profile:a2dp-sink=["headset-output"]

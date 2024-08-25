@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/verusvir/.vim'
+let g:netrw_dirhist_1='/home/verusvir/suckless/dmenu/.git'
+let g:netrw_dirhist_0='/home/verusvir/suckless/dwm/.git'
+let g:netrw_dirhist_9='/home/verusvir/suckless/dwm/.git/info'
+let g:netrw_dirhist_8='/home/verusvir/suckless/dwm/.git'
+let g:netrw_dirhist_7='/home/verusvir/.ssh'
+let g:netrw_dirhist_6='/home/verusvir/c_lab/display_frame_rate'
+let g:netrw_dirhist_5='/home/verusvir/PiHole/etc-dnsmasq.d'
+let g:netrw_dirhist_4='/home/verusvir/suckless'
+let g:netrw_dirhist_3='/'

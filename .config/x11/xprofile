@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#Prevent transparancy bug
+hsetroot --solid "000066"
+
+#Set background
+exec nitrogen --restore &
+
+autostart="xcompmgr blueman-applet"
+
+for program in $autostart; do
+	pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
