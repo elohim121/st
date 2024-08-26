@@ -9,8 +9,7 @@
 alias \
 	cp="cp -iv" \
 	mv="mv -iv" \
-	rm="rm -vI" \ 
-	la="ls -la"
+	rm="rm -vI"  
 
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
