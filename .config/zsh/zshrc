@@ -24,7 +24,7 @@ _comp_options+=(globdots)		# Include hidden files.
 alias v="vim"
 alias push="git push"
 alias branch="git branch -b"
-
+alias la="ls -la"
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh 2>/dev/null
