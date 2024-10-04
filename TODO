@@ -1,0 +1,9 @@
+make paywal work with st
+	replace colorsheme with the include line
+
+make scroll with mouse and more smooth
+	cf patches st
+
+use vim patches 
+
+
