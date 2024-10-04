@@ -1,6 +1,22 @@
-syntax on "Turn synthax on
-
 set nocompatible
+
+call plug#begin()
+
+" List your plugins here
+Plug 'phelipetls/vim-hugo'
+Plug 'sheerun/vim-polyglot'
+
+call plug#end()
+
+set wrap
+
+set hidden
+
+set ttyfast
+
+set showcmd
+
+set modelines=0
 
 set termguicolors
 
@@ -10,27 +26,26 @@ set cursorline "Show cursor highligh"
 
 set showmode "Show mode"
  
-set relativenumber "Show line number
+set relativenumber "Show line number"
 
 set background=dark 
 
-set ruler "Show file stats
+set ruler "Show file stats"
 
-set visualbell "Blink cursor instead of beep
+set visualbell "Blink cursor instead of beep"
 
 set encoding=utf-8
 
-set laststatus=2 "Show status line
+set laststatus=2 "Show status line"
 
-set showmatch "Show matching parenthese
+set showmatch "Show matching parenthese"
 
-set incsearch "Search as character are entered
+set incsearch "Search as character are entered"
 
-set hlsearch "Show mathc
+set hlsearch "Show mathc"
 
-set ignorecase "Search are case sensitive
+set ignorecase "Search are case sensitive"
 
-syntax enable
-"let g:dracula_colorterm = 0"
-colorscheme solarized8_flat"
+colorscheme solarized8_flat
+
 set background=dark

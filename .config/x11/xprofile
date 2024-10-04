@@ -6,7 +6,9 @@ hsetroot --solid "000066"
 #Set background
 exec nitrogen --restore &
 
-autostart="xcompmgr blueman-applet"
+exec wal -R &
+
+autostart="xcompmgr blueman-applet dwmblocks"
 
 for program in $autostart; do
 	pidof -sx "$program" || "$program" &
